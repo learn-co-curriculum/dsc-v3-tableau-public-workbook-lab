@@ -1,54 +1,143 @@
-# Tableau - Customizing Worksheets - Lab
+# Tableau Public - Customizing Worksheets Lab
 
 ## Introduction
-Now that you have gotten a taste of some of the features Tableau has to offer, it is time to put that knowledge to work and test out the features. To ensure that you will be working with the correct data set, we have provided the file for you. Click on the _Superstore Excel File_ link below to download the file if you do not have it from the previous lesson.
+Now that you have learned of the many features of Tableau, it is time to put that knowledge to work and create your first worksheet. In this lab, we will create a Tableau worksheet and generate a basic visualization that will express Profits by Sub-Category. Along the way we will discuss Dimensions and Measures and how they are the building blocks of your visualizations.
 
-<a href="https://github.com/learn-co-curriculum/dsc-tableau-customizing-worksheets-lab/raw/main/data/sample_superstore.xls" download target="_blank" download="sample_superstore.xls">Superstore Excel File</a> 
+To begin this lesson, you should have already:
+1. Created a Tableau Public account and downloaded and installed Tableau Public.
+2. Downloaded the Super Store Sales data set from Tableau Public's resources.
 
 ## Objectives
 You will be able to: 
-* Change and apply _Color_ and other attributes of the _Color_ card
-* Add customized descriptive information using _Label_ and _Tooltip_
-* Customize the color, size, and font of various components of the viz
+* Load a data set to Tableau and create a workbook
+* Create a basic worksheet in a workbook
+* Format and customize a basic Tableau visualization
+* Save and publish the worksheet to Tableau Public
 
-## Load the Data
-To start on this lab, you will need to open _Tableau Public_ and load the data. In this lab we will use the _Orders_ sheet again, so you will need to select that sheet and drop it into your workspace. Once you have loaded the data and selected the _Orders_ sheet, we are ready to create a basic viz to apply our these new customization tools to.
+## Load Data and Create a Worksheet 
 
-## Create the Viz
-Now that you have the data, create a bar chart of total sales by _Sub-Category_. Your chart should look like the one below.
+1. First, load the Superstore Sales dataset from the __Start page__ via the __Connect Pane__. Now you have created a __Tableau workbook__.
 
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/tableau/bar_chart_lab.png" alt="Image of what the bar chart should look like" height="350px">
+2. Upon loading the data, Tableau will launch the __Data Source page__. Select the __Worksheet icon__ from the sheets tab. Now you have created a new worksheet in the workbook.
 
-## Customize the Title
-The default title of the worksheet is the name of the worksheet which was assigned by Tableau to be _Sheet 1_. This title does not help the viewer understand what information you are attempting to convey, so you will want to change it to something more descriptive. There Are two ways you can change it, one is to rename the _Sheet 1_ tab in the bottom of the interface, which is as simple as right clicking on the tab and selecting _Rename_. Change the name of the sheet now to something that will help you in a presentation, such as _Profit Bar Chart_. This method will accomplish the task, but you'll notice that the _Title_ has now changed as well. What if you want the tab name and the title to be different? In this case, you can simply navigate to the _Title_ in the workspace and right click on it and select _Edit Title.._ The window that pops up will allow you to customize the _Title_ however you wish. Notice that the field for the text of the title is populated with __&lt;Sheet Name&gt;__, this gets the title from the name in the worksheet tab at the bottom of the workspace.
+3. Finally, populate the Data Source page by dragging the Orders table from the Left pane to the Canvas.
 
-Click into the text field and change the name to something more descriptive like _"Profit by Sub-Category"_. At this point, you can change the _color, font, size, and justification to whatever you like to improve the aesthetics of the viz. Aside from any color, or font changes you decided to add, your title should now look something like the one below.
+## Generate and Format Visualization
+Now we will get a look at what Tableau can do. Suppose you are working for big box store, and you have been tasked with visualizing some data from this dataset. For your first task, you simply need to create a bar chart which displays the _Profit_ earned by _Sub-Category_. 
 
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/tableau/title_lab.png" alt="Image of the title after changing the name" height="50px">
+1. A good first step here is to add _'Sub-Category'_ which is a __Dimension__ to the __Columns__ shelf and _'Profit'_, which is a __Measure__ to the __Rows__ shelf. Once you have these two elements in place, you should see a default graph shown for this data which turns out to be the bar chart you were tasked with creating.
 
-You can find more customization options in the menu bar at the top of the workspace under _Format>Title and Caption_. Get creative and make your title look great for the viewer.
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/lesson3/tab-1.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+</td></tr></table>
+    </center> </div>
+<br>
 
-## Adding in Some Color
-The viz you have this far is a bit monochromatic and does not help to highlight any of the data. Suppose your stakeholders would like to easily see which category is at the top of the profit scale. At the moment, we can only see the _Profit_ by _Sub-Category_. Use the _Color Card_ to color each _Sub-Category_ by _Category_. Get creative and set the _Color Palette_ to what you like. Once you have done that, make the viz a little more organized by sorting the data in _Descending_ order. Once you have done this, your viz should look something like the one below.
+2. This looks great, but it is a little difficult to read the sub-categories at the bottom of the chart. 
 
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/tableau/color_sort_lab.png" alt="Image of the viz with the color and sort changes applied" height="450px">
+<br>
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/lesson3/tab-2.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+</td></tr></table>
+    </center> </div>
+<br>
 
-## Adding Descriptive Information
-Because the negative numbers move the other bars away from the axis, it may be difficult for the viewer to associate the correct bar with the label. Use the _Label_ card and add some labels to the bars so each bar shows the _Sub-Category_ and _Profit_. Currency values such as _Profit_ are not formatted as currency by default, add a `$` before the value in the _Profit_ label.
+One simple fix for this instance would be to swap the axes so the sub-categories become the rows and the profit becomes the columns. Find the swap-axis button and click it to see how it affects the visualization. 
 
-Let's make the _Sub-Category_ stand out by increasing the font and making the text __bold__. Feel free to take some artistic license here and use all of the features to make the labels look pleasing. Once you have done these tasks, your viz should look something like the one below.
+<br>
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/lesson3/tab-3.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+</td></tr></table>
+    </center> </div>
+<br>
 
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/tableau/label_lab.png" alt="Image of the viz with the addition of labels and label formatting." height="450px">
+3. That's a bit better, but now it looks really cramped.  Tableau provides a menu option to change how the visualizations fit in the workspace. 
+> You can find this __Fit__ option in the top tool bar where it will display the _Standard_ view option.  Click on the drop down menu and select _Entire View_ to stretch the visualization to fit the entire screen view.
 
-## Adding Additional Information
-The labels have some good information, but your stakeholders may want to know the _Sales_ of a certain category while looking at the _Profit_. This can be done by adding the _Sales_ measure to the _Tooltip_ card. Add the _Sales_ to the _Tooltip_ and format the _Tooltip_ so that _Category_ is larger than the others, and make it __bold__. Let's change the name of the _Category_ label to _Department_ to align with the wishes of our stakeholder. Our stakeholder also likes the _Profit_ numbers to be __italicized__, so let's make that change as well, and while we are at it, we need to add in the `$` for the currency values. Once you make these changes your _Tooltip_ should look like the one below.
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/lesson3/tab-4.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+</td></tr></table>
+    </center> </div>
+<br>
 
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/tableau/tooltip_lab.png" alt="Image of the tooltip with the changes applied" height="150px">
+4. Great! Now that we have a good looking bar chart, we can make it a little more informative. For instance, we would likely want the profit sorted so that it is easier to quickly find the highest or lowest profit earning sub-categories. Fortunately, Tableau has a tool for this!
+> Use the __Sort Descending__ button in the toolbar and apply it to the bar chart. And, just like that, we have a graph that helps us to find the information we are looking for.
 
-## Final Product
-After making all of the changes and customizations, you now have a much more informative and user friendly visualization that will provide the necessary information to all who view it.  Below is an example of the completed viz from this lab.  Yours should look similar, but may be different due to choices you made on some of the customizations. 
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/lesson3/tab-5.png" alt="This is the alt-text for the image." height=350/>
+</td></tr></table>
+            </center>
+</div>
 
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/tableau/finished_lab.png" alt="Image of the final product of all of the changes and customizations made in this lab" height="450px">
+5. With so many sub-categories, it may be a bit difficult to connect the sub-category with the corresponding value.
+> To fix this we can add some additional information to the graph. From the __Data Pane__ drag _Sub-Category_ and _Profit_ one at a time and drop them on the _Label_ icon in the __Marks Card__.
+
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/lesson3/tab-6.png" alt="This is the alt-text for the image." height=350/>
+</td></tr></table>
+            </center>
+</div>
+
+6. You can change the type of visualization that is rendered with the __Show Me__ menu in the upper right hand corner.  
+
+> There are a few important things to know about the Show Me pane:
+> * The specific visualizations which can be rendered with the data you have dragged into the workspace will be highlighted and the others will be diffused in color. 
+> * You will also notice at the bottom of the show me menu, there are tips for which data types would be necessary to generate the selected graph.
+
+
+<br>
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/lesson3/tab-8.png" alt="This is the alt-text for the image." style="height: 400px;"/>
+</td></tr></table>
+    </center> </div>
+<br>
+
+> Try changing the data that you have placed in the workspace and look at the different types of graphs available for the different data types. Once you change the visualization, you will need to adjust the display options such as the _Labels_.
+
+## Customizing Your Worksheet
+
+### Add a Title
+Having a visualization is great, but we want to make it look professional and make it convey the information that is being shared by the visualizations. In order to do this, we will give the worksheet a meaningful title. 
+1. The default name of the worksheet is the default name of the tab you are working in, but we can customize this. 
+> If you right-click or double-click on the title of the visualization, which at the moment should be _Sheet1_, you will be able to change it. 
+2. In the dialogue box that appears, you can see that the name of the worksheet is forced as the _&lt;Sheet Name&gt;_. 
+> Change the name by simply replacing the default _&lt;Sheet Name&gt;_ with __"Profits by Sub-Category"__. Change the color to blue. 
+3. Click _apply_ and _OK_ to save the changes.
+
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/lesson3/tab9.png" alt="This is the alt-text for the image." height=350/>
+</td></tr></table>
+            </center>
+</div>
+
+## Save and Publish to Tableau Public
+Now that you have a basic visualization, you will want to share it with your stakeholders so they can see the work you have done. 
+
+1. To do this, simply click on the __Save__ icon in the top tool bar and follow the prompts.
+
+2. If you have not connected your Tableau Public account yet, you will be prompted to sign in.
+
+3. After authentication, you will be prompted for a name for the workbook. Name this workbook `learn-ws-YYYY-MM-XX`, where `YYYY` = Current year, `MM` = Current Month, and `XX` = your initials.
+
+Now your workbook is uploaded and saved to Tableau Public!
 
 ## Summary
-Part of making a useful visualization is ensuring that you highlight the necessary information. In this lab you were able to apply many of the tools Tableau has to offer to customize you viz and make it fit your specific use case. Now that you know the basics of Tableau, we will dig deeper into the many other visualizations and features Tableau has to offer.
+In this lab, we loaded a data set to Tableau and create a workbook. Then, we created a worksheet and formatted a basic Tableau visualization Finally, we saved and published the worksheet to Tableau Public.
+
+Now that we have mastered the basics, we will explore some of the most essential data visualizations that you can create with Tableau. In the coming lessons we will dive deeper into the more advanced features that Tableau has to offer.
