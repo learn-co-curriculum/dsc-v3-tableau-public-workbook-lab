@@ -1,4 +1,4 @@
-# Tableau Public - Customizing Worksheets Lab
+# Tableau Public - Tableau Workbooks Lab
 
 ## Introduction
 Now that you have learned of the many features of Tableau, it is time to put that knowledge to work and create your first worksheet. In this lab, we will create a Tableau worksheet and generate a basic visualization that will express Profits by Sub-Category. Along the way, we will discuss Dimensions and Measures and how they are the building blocks of your visualizations.
