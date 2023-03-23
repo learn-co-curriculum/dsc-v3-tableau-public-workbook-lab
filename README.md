@@ -30,7 +30,7 @@ Now we will get a look at what Tableau can do. Suppose you are working for a big
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/lesson3/tab-1.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/4_workbook_lab/tab-1.png" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
     </center> </div>
 <br>
@@ -41,7 +41,7 @@ Now we will get a look at what Tableau can do. Suppose you are working for a big
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/lesson3/tab-2.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/4_workbook_lab/tab-2.png" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
     </center> </div>
 <br>
@@ -52,7 +52,7 @@ One simple fix for this instance would be to swap the axes so the sub-categories
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/lesson3/tab-3.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/4_workbook_lab/tab-3.png" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
     </center> </div>
 <br>
@@ -63,7 +63,7 @@ One simple fix for this instance would be to swap the axes so the sub-categories
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/lesson3/tab-4.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/4_workbook_lab/tab-4.png" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
     </center> </div>
 <br>
@@ -74,7 +74,7 @@ One simple fix for this instance would be to swap the axes so the sub-categories
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/lesson3/tab-5.png" alt="This is the alt-text for the image." height=350/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/4_workbook_lab/tab-5.png" alt="This is the alt-text for the image." height=350/>
 </td></tr></table>
             </center>
 </div>
@@ -85,7 +85,7 @@ One simple fix for this instance would be to swap the axes so the sub-categories
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/lesson3/tab-6.png" alt="This is the alt-text for the image." height=350/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/4_workbook_lab/tab-6.png" alt="This is the alt-text for the image." height=350/>
 </td></tr></table>
             </center>
 </div>
@@ -101,7 +101,7 @@ One simple fix for this instance would be to swap the axes so the sub-categories
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/lesson3/tab-8.png" alt="This is the alt-text for the image." style="height: 400px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/4_workbook_lab/tab-8.png" alt="This is the alt-text for the image." style="height: 400px;"/>
 </td></tr></table>
     </center> </div>
 <br>
@@ -121,7 +121,7 @@ Having a visualization is great, but we want to make it look professional and ma
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/lesson3/tab9.png" alt="This is the alt-text for the image." height=350/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/4_workbook_lab/tab9.png" alt="This is the alt-text for the image." height=350/>
 </td></tr></table>
             </center>
 </div>
