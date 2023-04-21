@@ -63,7 +63,7 @@ One simple fix for this instance would be to swap the axes so the sub-categories
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/lesson3/tab-5.png" alt="This is the alt-text for the image." height=350/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/lesson3/tab-5.png" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
             </center>
 </div>
@@ -82,7 +82,7 @@ With so many sub-categories, it may be a bit difficult to connect the sub-catego
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/4_wb_lab/wb-lab-updated/wb-lab6.png" alt="This is the alt-text for the image." height=350/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/4_wb_lab/wb-lab-updated/wb-lab6.png" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
             </center>
 </div>
@@ -94,7 +94,7 @@ With so many sub-categories, it may be a bit difficult to connect the sub-catego
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/4_wb_lab/wb-lab-updated/wb-lab7b.png" alt="This is the alt-text for the image." height=350/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/4_wb_lab/wb-lab-updated/wb-lab7b.png" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
             </center>
 </div>
@@ -111,7 +111,7 @@ Having a visualization is great, but we want to make it look professional and ma
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/4_wb_lab/wb-lab-updated/wb-lab7d.png" alt="This is the alt-text for the image." height=350/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/4_wb_lab/wb-lab-updated/wb-lab7d.png" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
             </center>
 </div>
@@ -121,7 +121,7 @@ Now, your chart should look like this:
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/4_wb_lab/wb-lab-updated/wb-lab7c.png" alt="This is the alt-text for the image." height=350/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/4_wb_lab/wb-lab-updated/wb-lab7c.png" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
             </center>
 </div>
