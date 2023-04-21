@@ -94,7 +94,7 @@ With so many sub-categories, it may be a bit difficult to connect the sub-catego
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/4_wb_lab/wb-lab-updated/wb-lab7b.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/4_wb_lab/wb-lab-updated/wb-lab7e.png" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
             </center>
 </div>
